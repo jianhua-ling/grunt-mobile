@@ -25,7 +25,9 @@ module.exports = function(grunt) {
             }
         },
         clean : {
-            init : ['../grunt-mobile']
+            dist : {
+                src : ['grunt-mobile/']
+            }
         }
     });
 
